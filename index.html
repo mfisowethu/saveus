@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmFresh Connect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-flex">
+      <h1>FarmFresh Connect</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#cart">Cart</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home">
+    <div class="container">
+      <h2>Bringing local farms closer to your table</h2>
+      <a href="#products" class="btn">Shop Now</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>FarmFresh Connect helps communities access fresh, local produce by connecting consumers directly to farmers using a mobile and web platform.</p>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="section">
+    <div class="container">
+      <h2>Fresh From the Farm</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="images/download (5).jpeg" alt="Tomatoes" />
+          <h3>Tomatoes</h3>
+          <p>R20 per kg</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="images/download (6).jpeg" alt="Spinach" />
+          <h3>Spinach</h3>
+          <p>R15 per bunch</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="images/boxes-of-green-apples-and-other-produce-at-tshwane-fresh-produce-market-F6XCKW.jpg" alt="Apples" />
+          <h3>Apples</h3>
+          <p>R25 per bag</p>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cart Section -->
+  <section id="cart" class="section">
+    <div class="container">
+      <h2>Your Cart</h2>
+      <p><em>(Static preview – real cart requires JS)</em></p>
+      <table class="cart-table">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Qty</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Tomatoes</td>
+            <td>2 kg</td>
+            <td>R40</td>
+          </tr>
+          <tr>
+            <td>Spinach</td>
+            <td>1 bunch</td>
+            <td>R15</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3>Total: R55</h3>
+      <a href="#payment" class="btn">Proceed to Payment</a>
+    </div>
+  </section>
+
+  <!-- Payment Section -->
+  <section id="payment" class="section">
+    <div class="container">
+      <h2>Payment</h2>
+      <form>
+        <input type="text" placeholder="Full Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <input type="text" placeholder="Card Number" required />
+        <input type="text" placeholder="Expiry Date (MM/YY)" required />
+        <input type="text" placeholder="CVV" required />
+        <button type="submit">Pay R55</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Back to Top Button -->
+   <button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">↑</button>
+
+
+  <footer>
+    <p>&copy; 2025 FarmFresh Connect. All rights reserved.</p>
+  </footer>
+
+
+</body>
+</html>
